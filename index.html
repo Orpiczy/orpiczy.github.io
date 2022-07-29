@@ -1,8 +1,125 @@
-<html> 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS CheatSheet</title>
+    <link rel="stylesheet" href="./resources/styles.css" </head>
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Roboto">
+
+
 <body>
-  <h1>Orpiczy</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+
+    <header>
+        <!-- Banner Section -->
+        <div class="banner">
+            <section>
+                <h1 class="title">CSS Display and Position CheatSheet</h1>
+                <p> Simple cheatsheet for css's display and position attributes</p>
+
+            </section>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <!-- Display CheatSheet -->
+        <section>
+            <h2 class="subtitle">Display</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2" class="tableTitle">DISPLAY</th>
+                    </tr>
+                    <tr>
+                        <th>TYPE</th>
+                        <th>DESCRIPTION</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="type">block</td>
+                        <td class="description">element box taking full width and height of its container, generates
+                            line breaks</td>
+                    </tr>
+                    <tr>
+                        <td class="type">inline</td>
+                        <td class="description">element box taking as little space as possible, no line breaks and
+                            height and width
+                            adjustment</td>
+                    </tr>
+                    <tr>
+                        <td class="type">inline-block</td>
+                        <td class="description">element box with height and width adjustment and with no line breaks
+                        </td>
+                    </tr>
+                </tbody>
+                <caption>cheatsheet no.1</caption>
+            </table>
+        </section>
+
+        <!-- Position CheatSheet -->
+        <section>
+            <h2 class="subtitle">Position</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2" class="tableTitle">POSITION</th>
+                    </tr>
+                    <tr>
+                        <th>TYPE</th>
+                        <th>DESCRIPTION</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="type">static</td>
+                        <td class="description">element is position according to normal document flow -> top, right,
+                            bottom, left arguments
+                            doesn't matter, it's a default position value</td>
+                    </tr>
+                    <tr>
+                        <td class="type">relative</td>
+                        <td class="description">element is position according to normal document flow, but top, right,
+                            bottom, left offsets
+                            does matter, element's position does not impact position of other elements</td>
+                    </tr>
+                    <tr>
+                        <td class="type">absolute</td>
+                        <td class="description">element is
+                            removed from normal document flow and positioned relative to its closest positioned
+                            ancestor, if any; otherwise, it is
+                            placed relative to the initial containing block, it's final position is determined by top,
+                            right, bottom, left offset values</td>
+                    </tr>
+                    <tr>
+                        <td class="type">fixed</td>
+                        <td class="description">element is
+                            removed from normal document flow and positioned relative to initial containing block,
+                            element is
+                            removed from normal document flow, it's final position is determined by top,
+                            right, bottom, left offset values</td>
+                    </tr>
+                    <tr>
+                        <td class="type">sticky</td>
+                        <td class="description">element is part of normal document flow and position relative to closest
+                            scrolling ancestor
+                            and containing block</td>
+                    </tr>
+                </tbody>
+                <caption>cheatsheet no.2</caption>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <!-- Ending -->
+        <article>
+            <h2>Good luck man</h2>
+            <p>I know we suck, but we try our best ... or at least we demand the best from ourselves and I'm just happy
+                that we do and that we don't lose our energy and passion, let's just keep going :)</p>
+        </article>
+    </footer>
+
 </body>
- 
-</html>

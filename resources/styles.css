@@ -1,0 +1,44 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #F7D199;
+}
+
+table {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #F5B24E;
+}
+
+th {
+    text-align: center;
+    font-weight: bold;
+}
+
+table,
+td,
+th {
+    border: 1px solid #755526;
+}
+
+
+
+h1, h2{
+    text-shadow: 1px 1px #755526;
+}
+
+caption {
+    padding: 8px;
+    caption-side: bottom;
+}
+
+.tableTitle {
+    font-size: larger;
+}
+.title {
+    text-align: center;
+}
+
+.type {
+    font-weight: bold;
+}
+
